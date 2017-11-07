@@ -1,13 +1,8 @@
-﻿生成启动时间为 2017/11/7 20:14:53。
+﻿生成启动时间为 2017/11/7 20:30:03。
      1>项目“G:\代码\hellogl2\hellogl2\hellogl2.vcxproj”在节点 2 上(Build 个目标)。
-     1>CustomBuild:
-         Uic'ing hellogl2.ui...
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IG:\Qt\5.9.1\msvc2015_64\include /I.\GeneratedFiles\Debug /IG:\Qt\5.9.1\msvc2015_64\include\QtCore /IG:\Qt\5.9.1\msvc2015_64\include\QtGui /IG:\Qt\5.9.1\msvc2015_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_mainwindow.cpp main.cpp mainwindow.cpp
-         moc_mainwindow.cpp
-         main.cpp
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IG:\Qt\5.9.1\msvc2015_64\include /I.\GeneratedFiles\Debug /IG:\Qt\5.9.1\msvc2015_64\include\QtCore /IG:\Qt\5.9.1\msvc2015_64\include\QtGui /IG:\Qt\5.9.1\msvc2015_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt mainwindow.cpp
          mainwindow.cpp
-         正在生成代码...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\代码\hellogl2\x64\Debug\\hellogl2.exe" /NOLOGO /LIBPATH:G:\Qt\5.9.1\msvc2015_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib "assimp-vc140-mt.lib" opengl32.lib glew32.lib PVRTexLib.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"G:\代码\hellogl2\x64\Debug\hellogl2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\代码\hellogl2\x64\Debug\hellogl2.lib" /MACHINE:X64 /force x64\Debug\Camera.obj
          x64\Debug\moc_glwidget.obj
@@ -200,4 +195,4 @@
 
 已成功生成。
 
-已用时间 00:00:06.26
+已用时间 00:00:03.00
