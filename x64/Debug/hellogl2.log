@@ -1,0 +1,203 @@
+﻿生成启动时间为 2017/11/7 20:14:53。
+     1>项目“G:\代码\hellogl2\hellogl2\hellogl2.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Uic'ing hellogl2.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IG:\Qt\5.9.1\msvc2015_64\include /I.\GeneratedFiles\Debug /IG:\Qt\5.9.1\msvc2015_64\include\QtCore /IG:\Qt\5.9.1\msvc2015_64\include\QtGui /IG:\Qt\5.9.1\msvc2015_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_mainwindow.cpp main.cpp mainwindow.cpp
+         moc_mainwindow.cpp
+         main.cpp
+         mainwindow.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\代码\hellogl2\x64\Debug\\hellogl2.exe" /NOLOGO /LIBPATH:G:\Qt\5.9.1\msvc2015_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib "assimp-vc140-mt.lib" opengl32.lib glew32.lib PVRTexLib.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"G:\代码\hellogl2\x64\Debug\hellogl2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\代码\hellogl2\x64\Debug\hellogl2.lib" /MACHINE:X64 /force x64\Debug\Camera.obj
+         x64\Debug\moc_glwidget.obj
+         x64\Debug\moc_mainwindow.obj
+         x64\Debug\moc_Model.obj
+         x64\Debug\moc_Shader.obj
+         x64\Debug\moc_TextureLoader.obj
+         x64\Debug\qrc_hellogl2.obj
+         x64\Debug\glwidget.obj
+         x64\Debug\main.obj
+         x64\Debug\mainwindow.obj
+     1>moc_mainwindow.obj : warning LNK4006: stbi_load_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_load_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_load_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_load_16_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_load_16_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_load_16 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_load_from_file_16 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_loadf_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_loadf_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_loadf 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_loadf_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_hdr_to_ldr_gamma 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_hdr_to_ldr_scale 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_ldr_to_hdr_gamma 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_ldr_to_hdr_scale 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_is_hdr_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_is_hdr_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_is_hdr 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_is_hdr_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_failure_reason 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_image_free 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_info_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_info_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_info 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_info_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_set_unpremultiply_on_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_convert_iphone_png_to_rgb 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_set_flip_vertically_on_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize_headerflag 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_zlib_decode_malloc 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_zlib_decode_buffer 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_zlib_decode_noheader_malloc 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_mainwindow.obj : warning LNK4006: stbi_zlib_decode_noheader_buffer 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_load_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_load_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_load_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_load_16_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_load_16_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_load_16 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_load_from_file_16 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_loadf_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_loadf_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_loadf 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_loadf_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_hdr_to_ldr_gamma 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_hdr_to_ldr_scale 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_ldr_to_hdr_gamma 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_ldr_to_hdr_scale 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_is_hdr_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_is_hdr_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_is_hdr 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_is_hdr_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_failure_reason 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_image_free 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_info_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_info_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_info 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_info_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_set_unpremultiply_on_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_convert_iphone_png_to_rgb 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_set_flip_vertically_on_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize_headerflag 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_zlib_decode_malloc 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_zlib_decode_buffer 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_zlib_decode_noheader_malloc 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>moc_TextureLoader.obj : warning LNK4006: stbi_zlib_decode_noheader_buffer 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_load_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_load_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_load_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_load_16_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_load_16_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_load_16 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_load_from_file_16 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_loadf_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_loadf_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_loadf 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_loadf_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_hdr_to_ldr_gamma 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_hdr_to_ldr_scale 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_ldr_to_hdr_gamma 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_ldr_to_hdr_scale 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_is_hdr_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_is_hdr_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_is_hdr 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_is_hdr_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_failure_reason 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_image_free 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_info_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_info_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_info 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_info_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_set_unpremultiply_on_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_convert_iphone_png_to_rgb 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_set_flip_vertically_on_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize_headerflag 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_zlib_decode_malloc 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_zlib_decode_buffer 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_zlib_decode_noheader_malloc 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>glwidget.obj : warning LNK4006: stbi_zlib_decode_noheader_buffer 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_load_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_load_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_load_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_load_16_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_load_16_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_load_16 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_load_from_file_16 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_loadf_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_loadf_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_loadf 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_loadf_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_hdr_to_ldr_gamma 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_hdr_to_ldr_scale 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_ldr_to_hdr_gamma 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_ldr_to_hdr_scale 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_is_hdr_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_is_hdr_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_is_hdr 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_is_hdr_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_failure_reason 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_image_free 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_info_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_info_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_info 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_info_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_set_unpremultiply_on_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_convert_iphone_png_to_rgb 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_set_flip_vertically_on_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize_headerflag 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_zlib_decode_malloc 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_zlib_decode_buffer 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_zlib_decode_noheader_malloc 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>main.obj : warning LNK4006: stbi_zlib_decode_noheader_buffer 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_load_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_load_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_load_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_load_16_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_load_16_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_load_16 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_load_from_file_16 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_loadf_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_loadf_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_loadf 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_loadf_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_hdr_to_ldr_gamma 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_hdr_to_ldr_scale 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_ldr_to_hdr_gamma 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_ldr_to_hdr_scale 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_is_hdr_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_is_hdr_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_is_hdr 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_is_hdr_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_failure_reason 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_image_free 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_info_from_memory 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_info_from_callbacks 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_info 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_info_from_file 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_set_unpremultiply_on_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_convert_iphone_png_to_rgb 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_set_flip_vertically_on_load 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize_headerflag 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_zlib_decode_malloc 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_zlib_decode_buffer 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_zlib_decode_noheader_malloc 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>mainwindow.obj : warning LNK4006: stbi_zlib_decode_noheader_buffer 已在 moc_glwidget.obj 中定义；已忽略第二个定义
+     1>G:\代码\hellogl2\x64\Debug\\hellogl2.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+         hellogl2.vcxproj -> G:\代码\hellogl2\x64\Debug\hellogl2.exe
+     1>已完成生成项目“G:\代码\hellogl2\hellogl2\hellogl2.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:06.26
